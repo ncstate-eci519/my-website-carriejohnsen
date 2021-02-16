@@ -1,9 +1,11 @@
 h1,h2{
-  font-family: "Sofia", sans-serif;
   font-family:'Dancing Script', cursive;
   color:plum
 }
 
   li{
     color:turquoise
+  }
+  h2,h3{
+    text-decoration:underline;
   }
