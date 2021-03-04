@@ -1,4 +1,46 @@
+.center {
+    text-align: center;
+         }
 h1{
-    font-family: 'Luckiest Guy', cursive;
-    color:gold
-  }
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
+    color:orchid
+}
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 55px;
+    color:plum
+}
+h3{
+    font-family: 'Shadows Into Light', cursive; 
+    font-size: 28px 
+}
+p,li{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px 
+}
+body {
+    background-color: lightseagreen;
+    }
+    .myHeader {
+        color: teal;
+        padding: 40px;
+        text-align: center;
+        border: 3px double darkcyan;  
+        }
+        .topnav {
+            overflow: hidden;
+            background-color:turquoise;
+          }
+              .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+              }
+              .topnav a:hover {
+            background-color: #ddd;
+            color:darkorchid;
+              }

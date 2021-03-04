@@ -1,12 +1,29 @@
-h1,h2{
-  font-family:'Dancing Script', cursive;
-  color:plum
+.center {
+  text-align: center;
+  border: 3px double blue;
 }
-
-  li{
-    color:turquoise
-  }
-  h2,h3{
-    text-decoration:underline;
-  }
-  
+myHeader {
+    color: teal;
+    padding: 40px;
+    text-align: center;
+    border: 3px double darkcyan;  
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: blue;
+}
+    .topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    }
+    .topnav a:hover {
+  background-color: #ddd;
+  color:gold;
+    }
+    body {
+    background-color:whitesmoke;
+    }
