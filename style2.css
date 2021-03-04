@@ -20,14 +20,8 @@ p,li{
     font-size: 18px 
 }
 body {
-    background-color: lightseagreen;
+    background-color: whitesmoke;
     }
-    .myHeader {
-        color: teal;
-        padding: 40px;
-        text-align: center;
-        border: 3px double darkcyan;  
-        }
         .topnav {
             overflow: hidden;
             background-color:turquoise;
