@@ -2,7 +2,7 @@
   text-align: center;
   border: 3px double blue;
 }
-myHeader {
+.myHeader {
     color: teal;
     padding: 40px;
     text-align: center;
