@@ -33,12 +33,12 @@ li{
     font-size: 18px; 
     display: inline-block;
     background-color: plum;
-    word-spacing: 10px;
+    word-spacing: 25px;
   }
   .nav {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 18px;
-    background-color:plum; 
+ font-family: 'Shadows Into Light', cursive;
+ font-size: 18px;
+ background-color:plum; 
   position: fixed;
   top: 0;
   width: 100%;
@@ -48,6 +48,7 @@ li{
   padding: 0;
   overflow: hidden;
   display: inline;
+  word-spacing: 25px;
   }
 
 body {
