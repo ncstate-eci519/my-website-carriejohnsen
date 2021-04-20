@@ -8,13 +8,13 @@
     text-align: center;
     border: 3px double darkcyan;  
     }
-    h1{
+    h1, h3{
       font-family: 'Shadows Into Light', cursive;
       font-size: 30px;
       text-align: center;
     }
 
-    h2, h3, ul{
+    h2, ul{
       font-family: 'Shadows Into Light', cursive;
       font-size: 18px; 
       word-spacing: 10px;
