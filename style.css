@@ -30,20 +30,6 @@
       word-spacing: 10px;
     }
   
-    .nav {
-      font-family: 'Shadows Into Light', cursive;
-      font-size: 18px;
-      background-color:gold; 
-    position: fixed;
-    top: 0;
-    width: 100%;
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display:inline-block;
-    }
 
     body {
     background-color:whitesmoke;
