@@ -25,20 +25,18 @@ p{
     text-align: center;
     text-align: left;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 18px 
+    font-size: 25px 
     
 }
 li{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 18px; 
+    font-size: 25px; 
     display: inline-block;
-    background-color: plum;
     word-spacing: 25px;
   }
   .nav {
  font-family: 'Shadows Into Light', cursive;
  font-size: 18px;
- background-color:plum; 
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,6 +47,10 @@ li{
   overflow: hidden;
   display: inline;
   word-spacing: 25px;
+  foreground color: #9a9da0;
+  background color: #343a40;
+  font size: 13.5pt (18px);
+  font weight: normal)
   }
 
 body {
