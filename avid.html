@@ -42,6 +42,57 @@ myHeader {
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
+        var wicor = {};
+  wicor['writing'] = 0;
+  wicor['inquiry'] = 0;
+  wicor['collaboration'] = 0;
+  wicor['organization'] = 0;
+  wicor['reading'] = 0;
+$(document).ready(function(){
+  
+  drawChart();
+  
+  $("#submit").click(function(){
+      if($("#wicor").val()=="writing"){
+        wicor['writing']++;
+      }
+      if($("#wicor").val()=="inquiry"){
+          wicor['inquiry']++;
+       }
+       if($("#wicor").val()=="collaboration"){
+        wicor['collaboration']++;
+      }
+      if($("#wicor").val()=="organization"){
+          wicor['organization']++;
+       }
+       if($("#wicor").val()=="reading"){
+        wicor['reading']++;
+      }
+    drawChart();
+  });
+  
+  function drawChart(){
+    var ctx = $('#myChart');
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['Writing', 'Inquiry', 'Collaboration', 'Organization', 'Reading'],
+            datasets: [{
+                label: '# of Votes',
+                data: [wicor['writing'], wicor['inquiry'], wicor['collaboration'], wicor['organization'], wicor['reading']],
+              backgroundColor:[
+                'yellow',
+                'red',
+                'green',
+                'blue',
+                'purple'
+              ]
+            }]
+            }
+        });
+  }
+  });
+  
     $(document).ready(function(){
       $("button").click(function(){
         $("li").toggle();
