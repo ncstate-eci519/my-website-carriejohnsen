@@ -41,7 +41,8 @@ myHeader {
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Luckiest+Guy&display=swap');
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
+  
+  <script>
         var wicor = {};
   wicor['writing'] = 0;
   wicor['inquiry'] = 0;
@@ -74,7 +75,7 @@ $(document).ready(function(){
   function drawChart(){
     var ctx = $('#myChart');
     var myChart = new Chart(ctx, {
-        type: 'bar',
+        type: 'pie',
         data: {
             labels: ['Writing', 'Inquiry', 'Collaboration', 'Organization', 'Reading'],
             datasets: [{
@@ -92,7 +93,8 @@ $(document).ready(function(){
         });
   }
   });
-  
+  </script>
+  <script>
     $(document).ready(function(){
       $("button").click(function(){
         $("li").toggle();
